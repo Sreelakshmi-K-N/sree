@@ -1,0 +1,323 @@
+// INSERTION 
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5,
+    '5': 6
+  }
+}
+## VERIFYING
+[
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  },
+  {
+    "_id": 2,
+    "std_name": "Dechamma",
+    "Gender": "Female",
+    "class": "VI",
+    "age": 13,
+    "grd_point": 30
+  },
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "Gender": "Male",
+    "class": "V",
+    "age": 14,
+    "grd_point": 35.1257
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "Gender": "Female",
+    "class": "X",
+    "age": 17,
+    "grd_point": 36.2514
+  },
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "Gender": "Male",
+    "class": "V",
+    "age": 16,
+    "grd_point": 35.5201
+  }
+]
+##  Fetches Details Whose Age is Greater Than 18 
+[
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  }
+]
+##  Display No Of Students Whose Age >18 
+1
+ ## Display Students Details Whose grd_point >30 
+ [
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  },
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "Gender": "Male",
+    "class": "V",
+    "age": 14,
+    "grd_point": 35.1257
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "Gender": "Female",
+    "class": "X",
+    "age": 17,
+    "grd_point": 36.2514
+  },
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "Gender": "Male",
+    "class": "V",
+    "age": 16,
+    "grd_point": 35.5201
+  }
+]
+40) Display Students Details Whose Age Is Less Than 20 
+[
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  },
+  {
+    "_id": 2,
+    "std_name": "Dechamma",
+    "Gender": "Female",
+    "class": "VI",
+    "age": 13,
+    "grd_point": 30
+  },
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "Gender": "Male",
+    "class": "V",
+    "age": 14,
+    "grd_point": 35.1257
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "Gender": "Female",
+    "class": "X",
+    "age": 17,
+    "grd_point": 36.2514
+  },
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "Gender": "Male",
+    "class": "V",
+    "age": 16,
+    "grd_point": 35.5201
+  }
+]
+41) Display No of Students Whose Age <20 
+6
+42) Display Students Details Whose grd_point  Is Less Than 35 
+[
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  },
+  {
+    "_id": 2,
+    "std_name": "Dechamma",
+    "Gender": "Female",
+    "class": "VI",
+    "age": 13,
+    "grd_point": 30
+  }
+]
+43) Without Using And Operator Display Students Whose Age Is Less Than 24 And Greater 
+Than 17 
+[
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  }
+]
+44) Display Students Details Whose Age Not Equal To 30 
+[
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  },
+  {
+    "_id": 2,
+    "std_name": "Dechamma",
+    "Gender": "Female",
+    "class": "VI",
+    "age": 13,
+    "grd_point": 30
+  },
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "Gender": "Male",
+    "class": "V",
+    "age": 14,
+    "grd_point": 35.1257
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "Gender": "Female",
+    "class": "X",
+    "age": 17,
+    "grd_point": 36.2514
+  },
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "Gender": "Female",
+    "class": "X",
+    "age": 19,
+    "grd_point": 35.5201
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "Gender": "Male",
+    "class": "V",
+    "age": 16,
+    "grd_point": 35.5201
+  }
+]
+45) Without Using and Operator Display Students Whose grd_Point Is Less Than 35 And Greater Than 30 
+[
+  {
+    "_id": 1,
+    "std_name": "Mukesh",
+    "Gender": "Male",
+    "class": "VI",
+    "age": 11,
+    "grd_point": 33
+  }
+]
+46) Without Using and Operator, Display No Of Student(Count) Details Whose Age Is Less Than 35 And Greater Than 30 
+0
+47)   Demonstrate Use Of nin. The $Nin Stands for "Not In." As The Name Implies, 
+• It Is Used to Find None Of The Values Specified In An Array. 
+• Query to find student details age not in [11,13,19,20] 
+[
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "Gender": "Male",
+    "class": "V",
+    "age": 14,
+    "grd_point": 35.1257
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "Gender": "Female",
+    "class": "X",
+    "age": 17,
+    "grd_point": 36.2514
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "Gender": "Male",
+    "class": "V",
+    "age": 16,
+    "grd_point": 35.5201
+  }
+]
+48) Find Student Details Age Not In [11,13] And Display Only Std_Name, Age And Class
+[
+  {
+    "_id": 3,
+    "std_name": "Akash",
+    "class": "V",
+    "age": 14
+  },
+  {
+    "_id": 4,
+    "std_name": "Geetha",
+    "class": "X",
+    "age": 17
+  },
+  {
+    "_id": 5,
+    "std_name": "Bhomika",
+    "class": "X",
+    "age": 19
+  },
+  {
+    "_id": 6,
+    "std_name": "Nitin",
+    "class": "V",
+    "age": 16
+  }
+]

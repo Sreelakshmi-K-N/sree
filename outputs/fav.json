@@ -1,0 +1,139 @@
+// INSERTION
+{
+  "acknowledged": true,
+  "insertedIds": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4
+  }
+}
+## VERIFYING
+[
+  {
+    "_id": 1,
+    "name": "Prithvi",
+    "favorites": [
+      "chocolate",
+      "cake",
+      "butter",
+      "apples"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Shivakumar",
+    "favorites": [
+      "apples",
+      "pudding",
+      "pie"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Pradeep",
+    "favorites": [
+      "pears",
+      "pecans",
+      "chocolate",
+      "cherries"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Mukesh",
+    "favorites": [
+      "ice cream"
+    ]
+  }
+]
+1. Query how to use  $slice in   MongoDB Query to get 1st two items in array 
+[
+  {
+    "_id": 1,
+    "name": "Prithvi",
+    "favorites": [
+      "chocolate",
+      "cake"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Shivakumar",
+    "favorites": [
+      "apples",
+      "pudding"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Pradeep",
+    "favorites": [
+      "pears",
+      "pecans"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Mukesh",
+    "favorites": [
+      "ice cream"
+    ]
+  }
+]
+2. Query how to use $slice in   MongoDB Query to get last two items in array 
+[
+  {
+    "_id": 1,
+    "name": "Prithvi",
+    "favorites": [
+      "butter",
+      "apples"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Shivakumar",
+    "favorites": [
+      "pudding",
+      "pie"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Pradeep",
+    "favorites": [
+      "chocolate",
+      "cherries"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Mukesh",
+    "favorites": [
+      "ice cream"
+    ]
+  }
+]
+3. Query how to use  $slice in   MongoDB Query to get 1st two items in array for particular name ='Prithvi' 
+[
+  {
+    "_id": 1,
+    "name": "Prithvi",
+    "favorites": [
+      "chocolate",
+      "cake"
+    ]
+  }
+]
+4. Query how to use $slice in   MongoDB Query to get last two items in array for particaular name ='Prithvi' 
+[
+  {
+    "_id": 1,
+    "name": "Prithvi",
+    "favorites": [
+      "butter",
+      "apples"
+    ]
+  }
+]
